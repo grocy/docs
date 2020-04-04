@@ -4,12 +4,12 @@ This repository is for creating documentation for the grocy project.
 
 ## Planned sections
 
-- Setup
+- [Setup](setup.md)
   - Installation (step by step guide)
   - Setting up users
   - User specific settings
   - General settings
-- Use: track your food!
+- [Use: track your food!](food.md)
   - Manage master data
   - Purchase
   - Stock overview
@@ -17,13 +17,13 @@ This repository is for creating documentation for the grocy project.
   - Consume
   - Inventory
   - Shopping list
-- Use: track your cooking!
+- [Use: track your cooking!](cooking.md)
   - Recipes
   - Meal plan
-- Use: track your things!
+- [Use: track your things!](things.md)
   - Batteries
   - Equipment
-- Use: track your chores and tasks!
+- [Use: track your chores and tasks!](chores.md)
   - Chores overview
   - Tasks
   - Chore tracking
