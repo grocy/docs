@@ -1,6 +1,6 @@
 # About docs
 
-This repository is for creating documentation for the grocy project. You can find grocy at ![https://github.com/grocy/grocy](https://github.com/grocy/grocy)
+This repository is for creating documentation for the grocy project. You can find grocy at https://github.com/grocy/grocy As a first step, it will cater to users, not developers. (Tutorial type with learning orientation, not reference type with information orientation.)
 
 ## Feedback
 
@@ -8,6 +8,7 @@ Please leave me an issue if you think there is a topic that needs further docume
 
 ## Planned sections
 
+- Why use Grocy?
 - [Setup](setup.md)
   - Installation (step by step guide)
   - Setting up users
