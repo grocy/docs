@@ -1,6 +1,10 @@
-# docs
+# About docs
 
-This repository is for creating documentation for the grocy project.
+This repository is for creating documentation for the grocy project. You can find grocy at ![https://github.com/grocy/grocy](https://github.com/grocy/grocy)
+
+## Feedback
+
+Please leave me an issue if you think there is a topic that needs further documentation and is not planned yet. (See planned sections below.)  
 
 ## Planned sections
 
@@ -28,6 +32,3 @@ This repository is for creating documentation for the grocy project.
   - Tasks
   - Chore tracking
 - FAQ (?)
-
-## Note
-- Differences between desktop and server should be noted somehow.
