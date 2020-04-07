@@ -22,13 +22,13 @@ Please leave an issue if you think there is a topic that needs further documenta
 
 ## Planned sections for tutorials
 
-- Why use Grocy?
-- Setup
+- [ ] Why use Grocy?
+- [ ] Setup
   - Installation (step by step guide)
   - Setting up users
   - User specific settings
   - General settings
-- Use: track your food!
+- [ ] Use: track your food!
   - Manage master data
   - Purchase
   - Stock overview
@@ -36,13 +36,13 @@ Please leave an issue if you think there is a topic that needs further documenta
   - Consume
   - Inventory
   - Shopping list
-- Use: track your cooking!
+- [x] Use: track your cooking!
   - Recipes
   - Meal plan
-- Use: track your things!
+- [ ] Use: track your things!
   - Batteries
   - Equipment
-- Use: track your chores and tasks!
+- [ ] Use: track your chores and tasks!
   - Chores overview
   - Tasks
   - Chore tracking
