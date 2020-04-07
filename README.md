@@ -1,20 +1,34 @@
 # About docs
 
-This repository is for creating documentation for the grocy project. You can find grocy at https://github.com/grocy/grocy As a first step, it will cater to users, not developers. (Tutorial type with learning orientation, not reference type with information orientation.)
+This repository is for creating documentation for the grocy project. You can find grocy at https://github.com/grocy/grocy 
 
-## Feedback
+The four types of documentation that will be needed are:
+1. tutorials - learning-oriented, gets first-time users up and running
+2. how-tos - problem-oriented, answers specific scenarios
+3. explanations - understanding-oriented, gets contributors up and running
+4. reference - information-oriented, serves as a repository of knowledge for contributors
 
-Please leave me an issue if you think there is a topic that needs further documentation and is not planned yet. (See planned sections below.)  
+This project will first focus on tutorials. This means that:
+- the target audience of these writings are first- and second-time users of Grocy.
+- the structure should reflect their exploration of functionality
+- technical debt should be minimal
+- the language should be clear, with short sentences and an informal tone
 
-## Planned sections
+The main tutorial page is [tutorial.md](tutorial.md)
+
+# Feedback
+
+Please leave an issue if you think there is a topic that needs further documentation and is not planned yet. (See planned sections below.)  
+
+## Planned sections for tutorials
 
 - Why use Grocy?
-- [Setup](setup.md)
+- Setup
   - Installation (step by step guide)
   - Setting up users
   - User specific settings
   - General settings
-- [Use: track your food!](food.md)
+- Use: track your food!
   - Manage master data
   - Purchase
   - Stock overview
@@ -22,13 +36,13 @@ Please leave me an issue if you think there is a topic that needs further docume
   - Consume
   - Inventory
   - Shopping list
-- [Use: track your cooking!](cooking.md)
+- Use: track your cooking!
   - Recipes
   - Meal plan
-- [Use: track your things!](things.md)
+- Use: track your things!
   - Batteries
   - Equipment
-- [Use: track your chores and tasks!](chores.md)
+- Use: track your chores and tasks!
   - Chores overview
   - Tasks
   - Chore tracking

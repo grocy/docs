@@ -1,5 +1,14 @@
-# Use: track your cooking!
-Grocy lets you keep all your recipes in one place, use them in meals plans, and even browse which of your recipes uses and ingredient that you already have!
+# Using Grocy: track your cooking!
+
+## Goal
+Grocy lets you keep all your recipes in one place, use them in meals plans, and even browse which of your recipes uses an ingredient that you already have!
+
+## Before you start
+You will need:
+- a working Grocy app or installation
+- locations set up in your master data for your products
+- product groups set up in your master data for your products
+- some good recipes!
 
 ## Recipes
 
@@ -14,7 +23,7 @@ Grocy lets you keep all your recipes in one place, use them in meals plans, and 
   - Under variable amount you can set amounts that are different from your stock and purchase amounts and units. This will show up instead of the number under Amount.
   - Disable stock fulfillment checking for this ingredient - if checked, the system won't check if you have any of this stocked.
   - Group allows you to have sections in your ingredients list.
-3.Fill out your instructions
+3. Fill out your instructions
 4. Add serving amount
 
 ![Filled out recipe](images/editedrecipe.png) 
