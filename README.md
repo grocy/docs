@@ -1,3 +1,7 @@
+# Looking for the docs
+
+Continue to the [Grocy documentation](tutorial.md) or look below for some stuff about the docs and how to help improve them.
+
 # About docs
 
 This repository is for creating documentation for the grocy project. You can find grocy at https://github.com/grocy/grocy 
@@ -28,7 +32,7 @@ Please leave an issue if you think there is a topic that needs further documenta
   - Setting up users
   - User specific settings
   - General settings
-- [ ] Use: track your food!
+- [x] Use: track your food!
   - Manage master data
   - Purchase
   - Stock overview
@@ -46,4 +50,5 @@ Please leave an issue if you think there is a topic that needs further documenta
   - Chores overview
   - Tasks
   - Chore tracking
+- [ ] Examples
 - FAQ (?)
