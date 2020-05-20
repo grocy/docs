@@ -39,6 +39,7 @@ Helpful but not required:
 
 ## Manage master data
 When you start a fresh Grocy installation you have to start by setting up your database. This is done form the `manage master data` menu.
+
 ![Master Data Menu](/images/masterdatamenu.png)
 
 ### Products
