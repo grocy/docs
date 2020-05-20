@@ -103,6 +103,8 @@ When you use grocy to manage your home you want `MODE` setting to be set to `pro
 
 Depending on how you run your grocy instance, you might need to restart it after changes to the config.
 
+Please see the [example](/examples/examples.md) section for some ideas of how you can setup grocy.
+
 ## Helpful tools
 
 There are some great tools that can interact with Grocy that might be useful for you. Here is a short list that is most likely complete:
