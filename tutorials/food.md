@@ -156,6 +156,21 @@ What you purchase products you add them to your stock
 - **Store:** Where you bought the product.
 - **Location:** Where in the kitchen you want to store the product.
 
+### Input shorthands for date fields
+For (productivity) reasons all date (and time) input (and display) fields use the ISO-8601 format regardless of localization.
+The following shorthands are available:
+- `MMDD` gets expanded to the given day on the current year, if > today, or to the given day next year, if < today, in proper notation
+  - Example: `0517` will be converted to `2018-05-17`
+- `YYYYMMDD` gets expanded to the proper ISO-8601 notation
+  - Example: `20190417` will be converted to `2019-04-17`
+- `YYYYMMe` or `YYYYMM+` gets expanded to the end of the given month in the given year in proper notation
+  - Example: `201807e` will be converted to `2018-07-31`
+- `x` gets expanded to `2999-12-31` (which I use for products which never expire)
+- Down/up arrow keys will increase/decrease the date by 1 day
+- Right/left arrow keys will increase/decrease the date by 1 week
+- Shift + down/up arrow keys will increase/decrease the date by 1 month
+- Shift + right/left arrow keys will increase/decrease the date by 1 year
+
 ### Creating a product when purchasing
 
 If you enter a name or scan an unknown barcode you will get this dialog.
