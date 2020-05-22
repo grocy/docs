@@ -22,12 +22,12 @@ The main tutorial page is [tutorial.md](tutorial.md)
 
 # Feedback
 
-Please leave an issue if you think there is a topic that needs further documentation and is not planned yet. (See planned sections below.)  
+Please leave an issue if you think there is a topic that needs further documentation and is not planned yet. (See planned sections below.)
 
 ## Planned sections for tutorials
 
-- [ ] Why use Grocy?
-- [ ] Setup
+- [x] Why use Grocy?
+- [x] Setup
   - Installation (step by step guide)
   - Setting up users
   - User specific settings
