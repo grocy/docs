@@ -15,8 +15,8 @@ Each section should include in the beginning:
 
 [Using Grocy: track your cooking!](tutorials/cooking.md)
 
-[Using Grocy: track your things!](tutorials/things.md)
-
 [Using Grocy: track your chores and tasks!](tutorials/chores.md)
+
+[Using Grocy: track your things!](tutorials/things.md)
 
 [Example setups](/examples/examples.md)
