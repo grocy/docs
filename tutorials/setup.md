@@ -23,7 +23,7 @@ In a terminal, navigate to where you want your install to be. Then run the follo
 git clone https://github.com/grocy/grocy-docker
 cd grocy-docker
 docker-compose pull
-docker-compose up
+docker-compose up -d
 ```
 depending on your setup you might need to write ´sudo docker-compose´ instead of ´docker-compose´ 
 
