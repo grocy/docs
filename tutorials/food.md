@@ -44,7 +44,7 @@ When you login to your Grocy instance, or open the demo, you will see the stock 
 ## Manage master data
 When you start a fresh Grocy installation you have to start by setting up your database. This is done form the `manage master data` menu.
 
-<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/masterdatamenu.png" width="40%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/masterdatamenu.png" width="30%"></img>
 
 
 ### Products
@@ -109,7 +109,7 @@ Locations are physical locations in your home or kitchen. Locations can be as la
 
 To add a location click *Add* and give the location a name and click save.
 
-![Locations](/images/locations.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/locations.png" width="50%"></img>
 
 #### Freezers
 
