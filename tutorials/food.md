@@ -44,7 +44,7 @@ When you login to your Grocy instance, or open the demo, you will see the stock 
 ## Manage master data
 When you start a fresh Grocy installation you have to start by setting up your database. This is done form the `manage master data` menu.
 
-<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/masterdatamenu.png" width="30%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/masterdatamenu.png" width="25%"></img>
 
 
 ### Products
@@ -115,13 +115,14 @@ To add a location click *Add* and give the location a name and click save.
 
 Freezers are a special locations. If you check the freezer check box, items moved to the freezer will be considered **frozen** and when removed from the freezer they will be considered **thawed**. This can effect the expiry date.
 
-![Edit Location](/images/editlocation.png)
+<img src="https://github.com/kses/docs/blob/808ae659b959fa96c2132c8b1afc4b80d3f239cd/images/editlocation.png" width="60%"></img>
+
 
 ### Stores
 
 If you have prices enabled you can use stores to keep track of the price history of different stores.
 
-![Stores](/images/stores.png)
+<img src="https://github.com/kses/docs/blob/808ae659b959fa96c2132c8b1afc4b80d3f239cd/images/stores.png" width="50%"></img>
 
 ### Quantity Units
 
@@ -129,7 +130,8 @@ Under quantity units you define what quantities Grocy should know of and how to 
 
 In the example there are pack, bottle, can, piece, milliliter, etc. 
 
-![Quantity Units](/images/quantityunits.png)
+<img src="https://github.com/kses/docs/blob/808ae659b959fa96c2132c8b1afc4b80d3f239cd/images/quantityunits.png" width="50%"></img>
+
 
 You need to give the quantity unit a name, if you wish and it is applicable you can add a unit conversion. 
 
