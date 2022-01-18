@@ -61,7 +61,7 @@ Choose the main settings (wrench icon on the top right), and select Manage users
 
 User specific setting control basic interface settings. They can for example be used to hinder an always on tablet in the kitchen to go to sleep or have a less bright appearance at night. The kitchen tablet in this example would be its own user.
 
-![user settings](/images/usersettings.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/usersettings.png" width="45%"></img>
 
 ## Grocy Settings
 

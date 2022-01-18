@@ -37,6 +37,10 @@ Helpful but not required:
 
 ## Stock overview
 
+When you login to your Grocy instance, or open the demo, you will see the stock overview. This is the main window you normally work from if you use Grocy for food. Here you can filter products based on name, stock level or if it is getting old.
+
+![Stock Overview](/images/stockoverview.png)
+
 ## Manage master data
 When you start a fresh Grocy installation you have to start by setting up your database. This is done form the `manage master data` menu.
 

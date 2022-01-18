@@ -1,9 +1,6 @@
-Each section should include in the beginning:
-# Goals
-// Summarise what this tutorial is about in a sentence or two.
 
 # Before you start
-// Recap what the user needs to have/know before they can begin.
+Grocy can be used for many purposes and in many ways. Please see the [Example setups](/examples/examples.md) and Reddit for some different examples. The rest of the tutorial is dedicated to describe the different functions and features.
 
 ---
 

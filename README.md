@@ -24,6 +24,7 @@ The main tutorial page is [tutorial.md](tutorial.md)
 
 Please leave an issue if you think there is a topic that needs further documentation and is not planned yet. (See planned sections below.)
 
+
 ## Planned sections for tutorials
 
 - [x] Why use Grocy?
@@ -50,5 +51,6 @@ Please leave an issue if you think there is a topic that needs further documenta
   - Chores overview
   - Tasks
   - Chore tracking
-- [ ] Examples
+- [X] Examples
+- [ ] Update to 3.0
 - FAQ (?)
