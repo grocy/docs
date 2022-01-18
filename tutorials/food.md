@@ -152,7 +152,7 @@ Product groups is a way to sort and arrange your inventory. This is not strictly
 
 What you purchase products you add them to your stock
 
-<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchase.png" width="60%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchase.png" width="50%"></img>
 
 
 - **Product:** Select a product by typing its name or scanning its barcode. If you scan an unknown barcode or enter en unknown product name you will get the option to create a new product or add the barcode to en existing product.
@@ -207,7 +207,7 @@ When you purchase with scan mode it will purchase one of the purchase unit.
 
 Consume is the operation used when you want to **remove** or **open** stock units.
 
-<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/consume.png" width="30%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/consume.png" width="50%"></img>
 
 - **Product:** Select a product by typing its name or scanning its barcode.
 - **Amount:** Select how many of the product you want to consume
