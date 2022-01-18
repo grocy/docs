@@ -250,7 +250,7 @@ The transfer feature is a way to move items around in your virtual kitchen.
 
 If you move an item to the freezer it will be considered **frozen** and if you move it out it will be considered **thawed**. If you have it setup on the product page this will effect the expiry date.
 
-<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/transfer.png" width="40%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/transfer.png" width="35%"></img>
 
 ## Inventory
 
@@ -258,4 +258,4 @@ Inventory is a way to do a stock take. It adds or remove units in the stock quan
 
 When trying to inventory unknown barcodes or items it behaves the same way as when [purchasing unknown items](#creating-a-product-when-purchasing). After you have created the new product you will be returned to the inventory window to continue your stock take.
 
-<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/inventory.png" width="40%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/inventory.png" width="35%"></img>
