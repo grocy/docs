@@ -233,7 +233,8 @@ Shopping list, is what it sounds like, a Grocy connected shopping list. When sta
 - **Add products that are below defined min stock:** Add all items that you are missing to the shopping list.
 - **Add all list items to stock:** Takes you too the purchase window with the items in the shopping list pre-filled.
 
-![Shopping List](/images/shoppinglist.png)
+
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/shoppinglist.png" width="70%"></img>
 
 - **[Green] Mark as done:** Strikes through the item on the shopping list. Does nothing more than to help you keep track.
 - **[Cyan] Edit this item:** Change the shopping list item. Product or amount.
@@ -249,7 +250,7 @@ The transfer feature is a way to move items around in your virtual kitchen.
 
 If you move an item to the freezer it will be considered **frozen** and if you move it out it will be considered **thawed**. If you have it setup on the product page this will effect the expiry date.
 
-![Transfer](/images/transfer.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/transfer.png" width="40%"></img>
 
 ## Inventory
 
@@ -257,4 +258,4 @@ Inventory is a way to do a stock take. It adds or remove units in the stock quan
 
 When trying to inventory unknown barcodes or items it behaves the same way as when [purchasing unknown items](#creating-a-product-when-purchasing). After you have created the new product you will be returned to the inventory window to continue your stock take.
 
-![Inventory](/images/inventory.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/inventory.png" width="40%"></img>
