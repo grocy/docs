@@ -115,14 +115,14 @@ To add a location click *Add* and give the location a name and click save.
 
 Freezers are a special locations. If you check the freezer check box, items moved to the freezer will be considered **frozen** and when removed from the freezer they will be considered **thawed**. This can effect the expiry date.
 
-<img src="https://github.com/kses/docs/blob/808ae659b959fa96c2132c8b1afc4b80d3f239cd/images/editlocation.png" width="60%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/editlocation.png" width="60%"></img>
 
 
 ### Stores
 
 If you have prices enabled you can use stores to keep track of the price history of different stores.
 
-<img src="https://github.com/kses/docs/blob/808ae659b959fa96c2132c8b1afc4b80d3f239cd/images/stores.png" width="50%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/stores.png" width="50%"></img>
 
 ### Quantity Units
 
@@ -130,7 +130,7 @@ Under quantity units you define what quantities Grocy should know of and how to 
 
 In the example there are pack, bottle, can, piece, milliliter, etc. 
 
-<img src="https://github.com/kses/docs/blob/808ae659b959fa96c2132c8b1afc4b80d3f239cd/images/quantityunits.png" width="50%"></img>
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/quantityunits.png" width="50%"></img>
 
 
 You need to give the quantity unit a name, if you wish and it is applicable you can add a unit conversion. 
@@ -152,7 +152,8 @@ Product groups is a way to sort and arrange your inventory. This is not strictly
 
 What you purchase products you add them to your stock
 
-![Purchase](/images/purchase.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchase.png" width="30%"></img>
+
 
 - **Product:** Select a product by typing its name or scanning its barcode. If you scan an unknown barcode or enter en unknown product name you will get the option to create a new product or add the barcode to en existing product.
 - **Best Before:** Best before date of the product.
@@ -184,13 +185,14 @@ If you enter a name or scan an unknown barcode you will get this dialog.
 
 ![Purchase unknown products](/images/purchaseunknown.png)
 
+
 If you entered a name select `Add as new product`, you will be taken to the add product page with the name pre-filled (See [above](#add-and-edit-products) for more details).
 
 If you scanned a new item that you have never bought before select `Add as new product and prefill barcode`, you will be taken to the add product page with the barcode pre-filled (See [above](#add-and-edit-products) for more details)
 
 If you scanned an item that you have in stock in another brand that you want to connect to an exiting product select `Add as barcode to existing product`, you will be directed back to the purchase page with the small change (see below) that barcode you scanned is now written in **bold** below the product field and the product you select will get that barcode added to its list of barcodes. 
 
-![Purchase add barcode to existing product](/images/purchaseaddbarcodetoexisting.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchaseaddbarcodetoexisting.png" width="30%"></img>
 
 ### Scan mode
 
@@ -205,7 +207,7 @@ When you purchase with scan mode it will purchase one of the purchase unit.
 
 Consume is the operation used when you want to **remove** or **open** stock units.
 
-![Consume](/images/consume.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/consume.png" width="30%"></img>
 
 - **Product:** Select a product by typing its name or scanning its barcode.
 - **Amount:** Select how many of the product you want to consume
