@@ -37,10 +37,15 @@ Helpful but not required:
 
 ## Stock overview
 
+When you login to your Grocy instance, or open the demo, you will see the stock overview. This is the main window you normally work from if you use Grocy for food. Here you can filter products based on name, stock level or if it is getting old.
+
+![Stock Overview](/images/stockoverview.png)
+
 ## Manage master data
 When you start a fresh Grocy installation you have to start by setting up your database. This is done form the `manage master data` menu.
 
-![Master Data Menu](/images/masterdatamenu.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/masterdatamenu.png" width="25%"></img>
+
 
 ### Products
 
@@ -104,19 +109,20 @@ Locations are physical locations in your home or kitchen. Locations can be as la
 
 To add a location click *Add* and give the location a name and click save.
 
-![Locations](/images/locations.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/locations.png" width="50%"></img>
 
 #### Freezers
 
 Freezers are a special locations. If you check the freezer check box, items moved to the freezer will be considered **frozen** and when removed from the freezer they will be considered **thawed**. This can effect the expiry date.
 
-![Edit Location](/images/editlocation.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/editlocation.png" width="60%"></img>
+
 
 ### Stores
 
 If you have prices enabled you can use stores to keep track of the price history of different stores.
 
-![Stores](/images/stores.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/stores.png" width="50%"></img>
 
 ### Quantity Units
 
@@ -124,7 +130,8 @@ Under quantity units you define what quantities Grocy should know of and how to 
 
 In the example there are pack, bottle, can, piece, milliliter, etc. 
 
-![Quantity Units](/images/quantityunits.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/quantityunits.png" width="50%"></img>
+
 
 You need to give the quantity unit a name, if you wish and it is applicable you can add a unit conversion. 
 
@@ -145,7 +152,8 @@ Product groups is a way to sort and arrange your inventory. This is not strictly
 
 What you purchase products you add them to your stock
 
-![Purchase](/images/purchase.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchase.png" width="50%"></img>
+
 
 - **Product:** Select a product by typing its name or scanning its barcode. If you scan an unknown barcode or enter en unknown product name you will get the option to create a new product or add the barcode to en existing product.
 - **Best Before:** Best before date of the product.
@@ -177,13 +185,14 @@ If you enter a name or scan an unknown barcode you will get this dialog.
 
 ![Purchase unknown products](/images/purchaseunknown.png)
 
+
 If you entered a name select `Add as new product`, you will be taken to the add product page with the name pre-filled (See [above](#add-and-edit-products) for more details).
 
 If you scanned a new item that you have never bought before select `Add as new product and prefill barcode`, you will be taken to the add product page with the barcode pre-filled (See [above](#add-and-edit-products) for more details)
 
 If you scanned an item that you have in stock in another brand that you want to connect to an exiting product select `Add as barcode to existing product`, you will be directed back to the purchase page with the small change (see below) that barcode you scanned is now written in **bold** below the product field and the product you select will get that barcode added to its list of barcodes. 
 
-![Purchase add barcode to existing product](/images/purchaseaddbarcodetoexisting.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchaseaddbarcodetoexisting.png" width="50%"></img>
 
 ### Scan mode
 
@@ -198,7 +207,7 @@ When you purchase with scan mode it will purchase one of the purchase unit.
 
 Consume is the operation used when you want to **remove** or **open** stock units.
 
-![Consume](/images/consume.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/consume.png" width="50%"></img>
 
 - **Product:** Select a product by typing its name or scanning its barcode.
 - **Amount:** Select how many of the product you want to consume
@@ -224,7 +233,8 @@ Shopping list, is what it sounds like, a Grocy connected shopping list. When sta
 - **Add products that are below defined min stock:** Add all items that you are missing to the shopping list.
 - **Add all list items to stock:** Takes you too the purchase window with the items in the shopping list pre-filled.
 
-![Shopping List](/images/shoppinglist.png)
+
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/shoppinglist.png" width="70%"></img>
 
 - **[Green] Mark as done:** Strikes through the item on the shopping list. Does nothing more than to help you keep track.
 - **[Cyan] Edit this item:** Change the shopping list item. Product or amount.
@@ -240,7 +250,7 @@ The transfer feature is a way to move items around in your virtual kitchen.
 
 If you move an item to the freezer it will be considered **frozen** and if you move it out it will be considered **thawed**. If you have it setup on the product page this will effect the expiry date.
 
-![Transfer](/images/transfer.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/transfer.png" width="35%"></img>
 
 ## Inventory
 
@@ -248,4 +258,4 @@ Inventory is a way to do a stock take. It adds or remove units in the stock quan
 
 When trying to inventory unknown barcodes or items it behaves the same way as when [purchasing unknown items](#creating-a-product-when-purchasing). After you have created the new product you will be returned to the inventory window to continue your stock take.
 
-![Inventory](/images/inventory.png)
+<img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/inventory.png" width="35%"></img>
