@@ -25,7 +25,7 @@
 * [Inventory](#inventory)
 
 ## Goal
-Grocy lets you keep all your food. See what you have at home, what is about to expire, what is below minimum stock and need to be bought, manage shopping lists.
+Grocy lets you keep track of all your food. See what you have at home, what is about to expire, what is below minimum stock and need to be bought, manage shopping lists.
 
 ## Before you start
 You will need:
@@ -49,7 +49,7 @@ When you start a fresh Grocy installation you have to start by setting up your d
 
 ### Products
 
-On a fresh install you have to wait with setting up products until you have defined:
+On a fresh install, before you can set up products you need to define:
 - Locations
 - Quantity Units
 - Product Groups (optional)
@@ -95,7 +95,7 @@ Most fields are optional. The required fields have a red border.
 
 #### Parent Products
 
-There are two kinds of products. **Products** and **Parent Products**. Parent product is normal product that got other products connected to it. In this example *Chocolate* have both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe.
+There are two kinds of products. **Products** and **Parent Products**. Parent product is normal product that have other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe.
 
 ![Parent product example](/images/parentproductexample.png)
 
