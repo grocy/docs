@@ -25,7 +25,7 @@
 * [Inventory](#inventory)
 
 ## Goal
-Grocy lets you keep track of all your food. See what you have at home, what is about to expire, what is below minimum stock and need to be bought, manage shopping lists.
+Grocy lets you keep track of all your food. See what you have at home, what is about to expire, what is below minimum stock and needs to be bought, manage shopping lists.
 
 ## Before you start
 You will need:
