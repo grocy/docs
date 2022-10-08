@@ -190,7 +190,7 @@ If you entered a name select `Add as new product`, you will be taken to the add 
 
 If you scanned a new item that you have never bought before select `Add as new product and prefill barcode`, you will be taken to the add product page with the barcode pre-filled (See [above](#add-and-edit-products) for more details)
 
-If you scanned an item that you have in stock, but with another brand, and you want to connect it to an exiting product, select `Add as barcode to existing product`, you will be directed back to the purchase page with that small change (see below). That barcode you scanned is now written in **bold** below the product field and the product you select will get that barcode added to its list of barcodes. 
+If you scanned an item that you have in stock, but with another brand, and you want to connect it to an exiting product, select `Add as barcode to existing product`. You will be directed back to the purchase page with that small change (see below). That barcode you scanned is now written in **bold** below the product field and the product you select will get that barcode added to its list of barcodes. 
 
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchaseaddbarcodetoexisting.png" width="50%"></img>
 
