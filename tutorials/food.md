@@ -100,7 +100,7 @@ There are two kinds of products. **Products** and **Parent Products**. A parent 
 ![Parent product example](/images/parentproductexample.png)
 
 Another way to use parent products can be for different package sizes.
-Example, you want to have eggs at home, but sometimes you buy eggs in pack of 6 and sometimes in pack of 12. Then you could have Egg as a parent product and 2 child products, *Egg - pack of 6* and *Egg - pack of 12*. In a recipe you could then add the parent product.
+Example, you want to have eggs at home, but sometimes you buy eggs in a pack of 6 and sometimes in a pack of 12. Then you could have Egg as a parent product and 2 child products, *Egg - pack of 6* and *Egg - pack of 12*. In a recipe you could then add the parent product.
 
 
 ### Locations
