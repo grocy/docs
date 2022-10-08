@@ -150,7 +150,7 @@ Product groups is a way to sort and arrange your inventory. This is not strictly
 
 ## Purchase
 
-What you purchase products you add them to your stock
+After you purchase products at the store you can get them into the grocery stock by using the purchase feature.
 
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchase.png" width="50%"></img>
 
