@@ -155,7 +155,7 @@ After you purchase products at the store you can get them into the grocery stock
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchase.png" width="50%"></img>
 
 
-- **Product:** Select a product by typing its name or scanning its barcode. If you scan an unknown barcode or enter en unknown product name you will get the option to create a new product or add the barcode to en existing product.
+- **Product:** Select a product by typing its name or scanning its barcode. If you scan an unknown barcode or enter an unknown product name you will get the option to create a new product or add the barcode to an existing product.
 - **Best Before:** Best before date of the product.
 - **Never Expires:** Check this box if the product never expires.
 - **Amount:** How man you are adding.
