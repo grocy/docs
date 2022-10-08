@@ -95,7 +95,7 @@ Most fields are optional. The required fields have a red border.
 
 #### Parent Products
 
-There are two kinds of products. **Products** and **Parent Products**. Parent product is normal product that has other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe.
+There are two kinds of products. **Products** and **Parent Products**. Parent product is a normal product that has other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe.
 
 ![Parent product example](/images/parentproductexample.png)
 
