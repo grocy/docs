@@ -158,7 +158,7 @@ After you purchase products at the store you can get them into the grocery stock
 - **Product:** Select a product by typing its name or scanning its barcode. If you scan an unknown barcode or enter an unknown product name you will get the option to create a new product or add the barcode to an existing product.
 - **Best Before:** Best before date of the product.
 - **Never Expires:** Check this box if the product never expires.
-- **Amount:** How man you are adding.
+- **Amount:** How many you are adding.
 - **Price:** The price you paid for the purchase quantity unit.
     - **Unit Price/Total Price:** If the price entered is the total amount or a single item.
 - **Store:** Where you bought the product.
