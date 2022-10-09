@@ -95,12 +95,12 @@ Most fields are optional. The required fields have a red border.
 
 #### Parent Products
 
-There are two kinds of products. **Products** and **Parent Products**. Parent product is normal product that has other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe.
+There are two kinds of products. **Products** and **Parent Products**. A parent product is a normal product that has other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe. A parent product can be used as a normal product, that is you can have one pack of any kind of chocolate, *Chololate*, five packs of *Milk Chocolate* and four packs of *Dark Chocolate*. The parent product will show the sum of itself and the child products ("sub products") as seen in the picture below:
 
 ![Parent product example](/images/parentproductexample.png)
 
 Another way to use parent products can be for different package sizes.
-Example, you want to have eggs at home, but sometimes you buy eggs in pack of 6 and sometimes in pack of 12. Then you could have Egg as a parent product and 2 child products, *Egg - pack of 6* and *Egg - pack of 12*. In a recipe you could then add the parent product.
+Example, you want to have eggs at home, but sometimes you buy eggs in a pack of 6 and sometimes in a pack of 12. Then you could have Egg as a parent product and 2 child products, *Egg - pack of 6* and *Egg - pack of 12*. In a recipe you could then add the parent product.
 
 
 ### Locations
@@ -150,15 +150,15 @@ Product groups is a way to sort and arrange your inventory. This is not strictly
 
 ## Purchase
 
-What you purchase products you add them to your stock
+After you purchase products at the store you can get them into the Grocy stock by using the purchase feature.
 
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchase.png" width="50%"></img>
 
 
-- **Product:** Select a product by typing its name or scanning its barcode. If you scan an unknown barcode or enter en unknown product name you will get the option to create a new product or add the barcode to en existing product.
+- **Product:** Select a product by typing its name or scanning its barcode. If you scan an unknown barcode or enter an unknown product name you will get the option to create a new product or add the barcode to an existing product.
 - **Best Before:** Best before date of the product.
 - **Never Expires:** Check this box if the product never expires.
-- **Amount:** How man you are adding.
+- **Amount:** How many you are adding.
 - **Price:** The price you paid for the purchase quantity unit.
     - **Unit Price/Total Price:** If the price entered is the total amount or a single item.
 - **Store:** Where you bought the product.
@@ -190,7 +190,7 @@ If you entered a name select `Add as new product`, you will be taken to the add 
 
 If you scanned a new item that you have never bought before select `Add as new product and prefill barcode`, you will be taken to the add product page with the barcode pre-filled (See [above](#add-and-edit-products) for more details)
 
-If you scanned an item that you have in stock in another brand that you want to connect to an exiting product select `Add as barcode to existing product`, you will be directed back to the purchase page with the small change (see below) that barcode you scanned is now written in **bold** below the product field and the product you select will get that barcode added to its list of barcodes. 
+If you scanned an item that you have in stock, but with another brand, and you want to connect it to an exiting product, select `Add as barcode to existing product`. You will be directed back to the purchase page with that small change (see below). That barcode you scanned is now written in **bold** below the product field and the product you select will get that barcode added to its list of barcodes. 
 
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchaseaddbarcodetoexisting.png" width="50%"></img>
 
