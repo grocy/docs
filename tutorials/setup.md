@@ -38,7 +38,7 @@ or (if it is a remote server):
 
 ### Home Assistant Add-on
 
-If you have an extra Raspberry Pi this might be the easiest solution. Home Assistant is a home automation system that have grocy as an add-on.
+If you have an extra Raspberry Pi this might be the easiest solution. Home Assistant is a home automation system that has grocy as an add-on.
 [Follow these instructions to get Home Assistant running on you Raspberry Pi](https://www.home-assistant.io/getting-started/).
 
 When you have entered home assistant and see this screen select the supervisor, add-on store, search for grocy, select grocy, click install, start the add-on, click the "OPEN WEB UI" to get to the grocy screen.
