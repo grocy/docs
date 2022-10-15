@@ -38,16 +38,16 @@ Or if it is running on a remote server access, it like this instead:
 
 ### Home Assistant Add-on
 
-If you have an extra Raspberry Pi this might be the easiest solution. Home Assistant is a home automation system that has grocy as an add-on.
+If you have an extra Raspberry Pi this might be the easiest solution. Home Assistant is a home automation system that has Grocy as an add-on.
 [Follow these instructions to get Home Assistant running on you Raspberry Pi](https://www.home-assistant.io/getting-started/).
 
-When you have entered Home Assistant and see this screen select the supervisor, add-on store, search for grocy, select grocy, click install, start the add-on, click the "OPEN WEB UI" to get to the grocy screen.
+When you have entered Home Assistant and see this screen select the supervisor, add-on store, search for Grocy, select Grocy, click install, start the add-on, click the "OPEN WEB UI" to get to the Grocy screen.
 
 ![Home Assistant](/images/homeassistantsetup.png)
 
 ### Existing web server
 
-If you have a web server running and would like to run grocy on it. The [How to install](https://github.com/grocy/grocy#how-to-install) documentation on GitHub is probably enough to get you up and running.
+If you have a web server running and would like to run Grocy on it. The [How to install](https://github.com/grocy/grocy#how-to-install) documentation on GitHub is probably enough to get you up and running.
 
 ## Setting up users
 
@@ -65,7 +65,7 @@ User specific settings control basic interface settings. They can, for example, 
 
 ## Grocy Settings
 
-Many important settings in grocy such as the language, currency and first day of the week (Sunday, Monday, etc.), used by your Grocy server, as well as disabling unwanted features, are changed by editing a text file.
+Many important settings in Grocy such as the language, currency and first day of the week (Sunday, Monday, etc.), used by your Grocy server, as well as disabling unwanted features, are changed by editing a text file.
 
 You will find a folder named `data` inside the folder you installed Grocy into. In that folder you will find a file named `config.php`. This config file can be opened with any text editor.
 
@@ -91,19 +91,19 @@ Setting('CULTURE', 'en');
 # Needs to be a number where Sunday = 0, Monday = 1 and so forth
 Setting('CALENDAR_FIRST_DAY_OF_WEEK', '0');
 ```
-A line that starts with `#` is a comment to help you as a user understand following setting and how you can edit it. The comment is ignored by grocy.
+A line that starts with `#` is a comment to help you as a user understand following setting and how you can edit it. The comment is ignored by Grocy.
 
-By changing `production` to `demo` your grocy will be filled with example data. Same as in this [demo](https://en.demo.grocy.info/).
+By changing `production` to `demo` your Grocy will be filled with example data. Same as in this [demo](https://en.demo.grocy.info/).
 
 ```
 Setting('MODE', 'demo');
 ```
 
-When you use grocy to manage your home you want `MODE` setting to be set to `production`. All other options are more dependent on how you want grocy to behave. (Tip: To actually make Grocy usable for your home and routines, disabling features can often be the key.)
+When you use Grocy to manage your home, you want the `MODE` setting to be set to `production`. All other options are more dependent on how you want Grocy to behave. (Tip: To actually make Grocy usable for your home and routines, disabling features can often be the key.)
 
-Depending on how you run your grocy instance, you might need to restart it after changes to the config.
+Depending on how you run your Grocy instance, you might need to restart it after changes to the config.
 
-Please see the [example](/examples/examples.md) section for some ideas of how you can setup grocy.
+Please see the [examples](/examples/examples.md) section for some ideas of how you can setup Grocy.
 
 ## Helpful tools
 
