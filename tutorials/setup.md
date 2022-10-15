@@ -25,7 +25,7 @@ cd grocy-docker
 docker-compose pull
 docker-compose up -d
 ```
-depending on your setup you might need to write ´sudo docker-compose´ instead of ´docker-compose´ 
+depending on your setup you might need to write `sudo docker-compose` instead of `docker-compose`.
 
 If your container is running on the same computer as your web browser you can access it here:
 - http://localhost 
