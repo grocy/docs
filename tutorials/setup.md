@@ -4,7 +4,7 @@
 
 Grocy can be installed in many ways.
 - Windows application (runs as a normal windows application).
-- Docker Container.
+- Docker or Podman Container.
 - Home Assistant Add-on.
 - On your existing PHP enabled web server.
 
