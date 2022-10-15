@@ -27,11 +27,11 @@ docker-compose up -d
 ```
 depending on your setup you might need to write ´sudo docker-compose´ instead of ´docker-compose´ 
 
-Your grocy server should now be accessible from (if you are at the server):
+If your container is running on the same computer as your web browser you can access it here:
 - http://localhost 
 - https://localhost 
 
-or (if it is a remote server):
+Or if it is running on a remote server access, it like this instead:
 
 - http://< ip-address-of-your-server >
 - https://< ip-address-of-your-server >
