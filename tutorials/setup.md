@@ -67,7 +67,7 @@ User specific settings control basic interface settings. They can, for example, 
 
 Many important settings in grocy such as the language, currency and first day of the week (Sunday, Monday, etc.), used by your Grocy server, as well as disabling unwanted features, are changed by editing a text file.
 
-In your grocy install you will find a folder named `data` in that folder you will find a file named `config.php`. This config file can be opened with any text editor.
+You will find a folder named `data` inside the folder you installed Grocy into. In that folder you will find a file named `config.php`. This config file can be opened with any text editor.
 
 On a linux server this file can be opened by
 ```
