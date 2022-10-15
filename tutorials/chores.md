@@ -1,7 +1,7 @@
 # Use: track your chores and tasks!
 
 ## Goal
-Grocy helps you remember your recurring chores and your tasks. Split them in your household and give you reminders.
+Grocy helps you remember your recurring chores and your tasks. It also allows you to split them between the members of your household. Grocy gives you reminders about your upcoming activites.
 
 ## Before you start
 You will need:
@@ -14,11 +14,11 @@ Chores are tasks that you want to perform over and over again. Such as cleaning,
 
 ### Manage master data
 
-All chores are defined under manage master data. You can see all your chores, edit them by pressing the cyan button, delete them by the red button. You can also in the list see basic information regarding the chores.
+All chores are defined under _Manage master data_. You can see all your chores and edit them by pressing the cyan button and delete them by pressing the red button. You can see basic information regarding the chores in the list for _Manage master data_ (and also in _Chores overview_ described below).
 
 ![Master Data Chores](/images/choresmasterdata.png)
 
-When you create a new chores you have to provide Grocy with information about how to treat the chore.
+When you create a new chore you have to provide Grocy with information about how to treat the chore.
 
 - **Name:** Name of the Chore.
 - **Description:** A description of the chore.
@@ -43,35 +43,35 @@ When you create a new chores you have to provide Grocy with information about ho
 
 ### Chores overview
 
-The chore overview gives you an overview of all chores you have, when they should be done, who they are assigned to and if any are soon to be due or overdue.
+The _Chores overview_ screen gives you an overview of all chores you have, when they should be done, who they are assigned to and if any are soon to be due or overdue.
 
-By pressing the green play button you register the chore as executed by the singed in user at this moment.
+By pressing the green `Play` button, you register the chore as having been performed by the user who is signed in at this moment.
 
 ![Chores Overview](/images/choresoverview.png)
 
 ### Chore tracking
 
-With chore tracking you can execute a chore and select which user executed the chore and at what time and date. Tracked time is the time that user performed the task.
+With chore tracking you can execute a chore and select which user executed the chore and at what time and date. The _Last tracked_ time is the time that user most recently performed the task.
 
 ![Chore Tracking](/images/choretracking.png)
 
 ## Tasks
 
-Tasks are similar to chores but are intended for non recurring tasks. Such as *Update Grocy Docs* or *Repair the lawn mower*.
+Tasks are similar to chores but are intended for non-recurring tasks. Such as *Update Grocy Docs* or *Repair the lawn mower*.
 
 ### Manage master data
 
-Under manage master data, task categories can be create. Task categories are used to group and sort tasks.
+Under _Manage master data_, task categories can be created. Task categories are used to group and sort tasks.
 
 ![Task Categories](/images/taskcategories.png)
 
 ### Tasks
 
-Under tasks, tasks can be added, viewed and executed. You can review how many tasks you have, who they are assigned to, when they are due, and how many are due soon or over due.
+Under _Tasks_, tasks can be added, viewed and executed. You can review how many tasks you have, who they are assigned to, when they are due, and how many are due soon or overdue.
 
 ![Tasks](/images/tasksoverview.png)
 
-By pressing add you can create new tasks. You then have to provide some information.
+By pressing `Add` you can create new tasks. You then have to provide some information.
 
 - **Name:** Name of the task.
 - **Description:** Description of the task.
