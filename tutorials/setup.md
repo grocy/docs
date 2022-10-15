@@ -14,7 +14,7 @@ Installed as a normal application. For more information see [grocy-desktop readm
 ### Docker Container
 There are two maintained docker images, [grocy/grocy-docker](https://github.com/grocy/grocy-docker) and [linuxserver/docker-grocy](https://github.com/linuxserver/docker-grocy). The official docker container comes with everything needed to get started from scratch, the linuxserver container is more suitable if you already got a reverse proxy solution running.
 
-If you do not have docker and docker-compose installed you have to install them by following [these instructions for docker](https://docs.docker.com/get-docker/) and [these for docker-compose](https://docs.docker.com/compose/install/).
+If you do not have docker and docker-compose installed you have to install them by following [these instructions for docker](https://docs.docker.com/get-docker/) and [these for docker-compose](https://docs.docker.com/compose/install/). If you are using Podman you may or may not want to use [podman-compose](https://www.redhat.com/sysadmin/podman-compose-docker-compose).
 
 Now you have to download the files, either manually from [grocy/grocy-docker](https://github.com/grocy/grocy-docker) or with git.
 
