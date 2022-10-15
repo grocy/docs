@@ -47,7 +47,7 @@ When you have entered Home Assistant and see this screen select the supervisor, 
 
 ### Existing web server
 
-If you have a web server running and would like to run grocy on it. The [How to install](https://github.com/grocy/grocy#how-to-install) on the github is probably enough to get you up and running.
+If you have a web server running and would like to run grocy on it. The [How to install](https://github.com/grocy/grocy#how-to-install) documentation on GitHub is probably enough to get you up and running.
 
 ## Setting up users
 
