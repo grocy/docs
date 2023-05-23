@@ -75,27 +75,27 @@ Most fields are optional. The required fields have a red border.
 ![Edit Product 2](/images/editproduct2.png)
 
 - **Minimum stock amount:** If you want Grocy to warn you when you are below a defined level.
-- **Accumulate sub products min. stock amount:** If the product is a parent product it will use the sum of its children(sub) products when checking if the stock is below the *Minimum stock amount*. See example below.
+- **Accumulate sub products min. stock amount:** If the product is a parent product it will use the sum of its child (sub) products when checking if the stock is below the *Minimum stock amount*. See example below.
 - **Default best before days:** If you want Grocy to pre-fill a suggestion of best before date when purchasing this product (useful for quick entry when purchasing). `-1` Means that the product never expires.
 - **Default best before days after opened:** How many days the product be eatable after it is opened.
 - **Product group:** What group of products the product belongs to.
 - **Quantity unit purchase:** What kind of unit do you buy the product in.
 - **Quantity unit stock:** What unit do you want to keep track of in stock.
-- **Factor purchase to stock quantity:** The translation factor between package size you buy and that you use. If the product is 6-pack of eggs and you want to keep track of every egg, the *Quantity unit purchase* would be *pack* and the *Quantity unit stock* would be *Piece* and the *Factor purchase to stock quantity unit* would be 6. You purchase 1 pack and end up with 6 pieces in stock.
+- **Factor purchase to stock quantity:** The translation factor between package size you buy and that you use. If the product is a 6-pack of eggs, and you want to keep track of every egg, the *Quantity unit purchase* would be *Pack* and the *Quantity unit stock* would be *Piece* and the *Factor purchase to stock quantity unit* would be 6. You purchase 1 pack and end up with 6 pieces in stock.
 - **Allow partial units in stock:** If you want to be able to track partial units in stock. E.g. you consume half a head of lettuce and want to keep track of that, you have to enable this.
 
 ![Edit Product 3](/images/editproduct3.png)
 - **Enable tare weight handling:** 
 - **Tare weight:** 
-- **Disable stock fulfillment checking for this ingredient:** If you do not want the check stock for this product when Grocy checks if you have enough in stock to cook a recipe. Can be overridden in the recipe.
+- **Disable stock fulfillment checking for this ingredient:** If you do not want to check stock for this product when Grocy checks if you have enough in stock to cook a recipe. Can be overridden in the recipe.
 - **Energy (kcal):** Energy content of a stock unit.
-- **Default best before days after freezing:** If you move a product from the fridge to the freezer it will get a new best before date if this value is set. Note: `-1`does not work for this field and product that is put directly into the fridge will not get this value. This only applies when a product is moved to the fridge.
+- **Default best before days after freezing:** If you move a product from the fridge to the freezer, it will get a new best before date if this value is set. Note: `-1`does not work for this field and product that is put directly into the fridge will not get this value. This only applies when a product is moved to the fridge.
 - **Default best before days after thawing:** Best before date when moving a product from the freezer to another location.
-- **Product picture:** You can add picture to your product.
+- **Product picture:** You can add a picture to your product.
 
 #### Parent Products
 
-There are two kinds of products. **Products** and **Parent Products**. A parent product is a normal product that has other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe. A parent product can be used as a normal product, that is you can have one pack of any kind of chocolate, *Chololate*, five packs of *Milk Chocolate* and four packs of *Dark Chocolate*. The parent product will show the sum of itself and the child products ("sub products") as seen in the picture below:
+There are two kinds of products. **Products** and **Parent Products**. A parent product is a normal product that has other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe. A parent product can be used as a normal product, that is you can have one pack of any kind of chocolate, *Chocolate*, five packs of *Milk Chocolate* and four packs of *Dark Chocolate*. The parent product will show the sum of itself and the child products ("sub products") as seen in the picture below:
 
 ![Parent product example](/images/parentproductexample.png)
 
@@ -113,7 +113,7 @@ To add a location click *Add* and give the location a name and click save.
 
 #### Freezers
 
-Freezers are a special locations. If you check the freezer check box, items moved to the freezer will be considered **frozen** and when removed from the freezer they will be considered **thawed**. This can effect the expiry date.
+Freezers are a special location. If you check the freezer check box, items moved to the freezer will be considered **frozen** and when removed from the freezer they will be considered **thawed**. This can affect the expiry date.
 
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/editlocation.png" width="60%"></img>
 
@@ -133,7 +133,7 @@ In the example there are pack, bottle, can, piece, milliliter, etc.
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/quantityunits.png" width="50%"></img>
 
 
-You need to give the quantity unit a name, if you wish and it is applicable you can add a unit conversion. 
+You need to give the quantity unit a name. If you wish and if applicable, you can add a unit conversion. 
 
 **Example:**
 A suitable conversion could be that 1 kg = 1000 g. This is true for all products. It would be unsuitable to add that 1 pack = 10 pieces since this is product dependent and can later be added to the products.
@@ -142,7 +142,7 @@ A suitable conversion could be that 1 kg = 1000 g. This is true for all products
 
 ### Product groups
 
-Product groups is a way to sort and arrange your inventory. This is not strictly needed for use of Grocy but can be useful for browsing your virtual kitchen.
+Product groups are a way to sort and arrange your inventory. This is not strictly needed for use of Grocy, but can be useful for browsing your virtual kitchen.
 
 ![Product Groups](/images/productgroups.png)
 
@@ -190,13 +190,13 @@ If you entered a name select `Add as new product`, you will be taken to the add 
 
 If you scanned a new item that you have never bought before select `Add as new product and prefill barcode`, you will be taken to the add product page with the barcode pre-filled (See [above](#add-and-edit-products) for more details)
 
-If you scanned an item that you have in stock, but with another brand, and you want to connect it to an exiting product, select `Add as barcode to existing product`. You will be directed back to the purchase page with that small change (see below). That barcode you scanned is now written in **bold** below the product field and the product you select will get that barcode added to its list of barcodes. 
+If you scanned an item that you have in stock, but with another brand, and you want to connect it to an existing product, select `Add as barcode to existing product`. You will be directed back to the purchase page with that small change (see below). That barcode you scanned is now written in **bold** below the product field and the product you select will get that barcode added to its list of barcodes. 
 
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/purchaseaddbarcodetoexisting.png" width="50%"></img>
 
 ### Scan mode
 
-On top of the screen you can select **Scan mode off** or **Scan mode on**. The intention is to make it fast to purchase item with a scanner. For scan mode to work as intended:
+On top of the screen you can select **Scan mode off** or **Scan mode on**. The intention is to make it fast to purchase an item with a scanner. For scan mode to work as intended:
 - best before date must be filled with a default value or disabled in the config.
 
 **Note:** Price will not be entered (if it is enabled)
@@ -220,18 +220,18 @@ Consume is the operation used when you want to **remove** or **open** stock unit
 
 ### Scan mode
 
-On top of the screen you can select **Scan mode off** or **Scan mode on**. The intention is to make it fast to consume item with a scanner. 
+On top of the screen you can select **Scan mode off** or **Scan mode on**. The intention is to make it fast to consume an item with a scanner. 
 
 When you purchase with scan mode it will consume one of the stock quantity unit.
 
 ## Shopping list
 
-Shopping list, is what it sounds like, a Grocy connected shopping list. When starting a new instal you automatically have one shopping list called shopping list but you can create more if you wish.
+Shopping list, is what it sounds like, a Grocy connected shopping list. When starting a new install, you automatically have one shopping list called shopping list, but you can create more if you wish.
 
 - **Add item:** Adds items to the shopping list by name or barcode.
 - **Clear list:** Clears the shopping list.
 - **Add products that are below defined min stock:** Add all items that you are missing to the shopping list.
-- **Add all list items to stock:** Takes you too the purchase window with the items in the shopping list pre-filled.
+- **Add all list items to stock:** Takes you to the purchase window with the items in the shopping list pre-filled.
 
 
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/shoppinglist.png" width="70%"></img>
@@ -248,7 +248,7 @@ Shopping list, is what it sounds like, a Grocy connected shopping list. When sta
 
 The transfer feature is a way to move items around in your virtual kitchen.
 
-If you move an item to the freezer it will be considered **frozen** and if you move it out it will be considered **thawed**. If you have it setup on the product page this will effect the expiry date.
+If you move an item to the freezer it will be considered **frozen** and if you move it out it will be considered **thawed**. If you have it setup on the product page, this will affect the expiry date.
 
 <img src="https://github.com/grocy/docs/blob/4da24a279402d8ef01151d3e7f32c8712d0eb0d1/images/transfer.png" width="35%"></img>
 
